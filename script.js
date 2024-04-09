@@ -22,6 +22,6 @@ function playRound(playerChoice) {
     ) {
         displayResult.textContent = 'You win!';
     } else {
-        displayResult.textContent = 'Computer wins!';
+        displayResult.textContent = 'Computer wins! You lost!';
     }
 }
